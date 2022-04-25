@@ -3,11 +3,11 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-
+<link rel="stylesheet" href="../styles/contato.css">
 		<link rel="stylesheet" href="../styles/global.css">
-		<script src="../scripts/global.js"></script> 		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-		<title>Produtos</title>
+		<title>Kendo Web</title>
 	</head>
 	<body>
 		<header class="header">
@@ -15,12 +15,105 @@
 				<a href="index.html" class="logo">Kendo Web</a>
 				<div id="nav-links" class="header-right">
 					<a href="sobre.html" class="nav-link">Sobre</a>
-					<a href="produtos.html" class="nav-link ">Produtos</a>
+					<a href="produtos.html" class="nav-link">Produtos</a>
 					<a href="estoque.html" class="nav-link">Estoque</a>
 					<a href="diferencial.html" class="nav-link">Diferencial</a>
 					<a href="contato.html" class="nav-link active">Contato</a>
 				</div>			
 			</nav>
 		</header>	
+
+  <div class="qfc-container">
+    <h2>Contato Kendo Web</h2>
+    <label>Entre os detalhes para contato</label>
+    <form>
+      <div>
+        <div>
+            <input placeholder="Nome Completo" type="text" required>
+        </div>
+        <div>
+            <input placeholder="Telefone" type="tel" required>
+        </div>
+        <div>
+            <input placeholder="Email" type="email" required>
+        </div>
+        <div>
+          <label>Sexo</label>
+          <div>
+            <label>
+                            <input type="radio" name="set_1" checked="checked">Masculino
+                        </label>
+          </div>
+          <div>
+            <label>
+                            <input type="radio" name="set_1">Feminino
+                        </label>
+          </div>
+        </div>
+        <div>
+          <div>
+            <input type="checkbox" checked="checked">
+            <label>Primeira compra?</label>
+          </div>
+        </div>
+        <div>
+          <label>Cidade</label>
+          <select id>
+                        <option disabled selected value="--">Select Your City</option>
+                        <option value="Brasilia">Brasília</option>
+                        <option value="Uberaba">Uberaba</option>
+                        <option value="São Paulo">São Pulo</option>
+                    </select>
+        </div>
+        <div>
+          <label>Modalidades de Treino</label>
+          <select multiple>
+                        <option value="Kendo">Kendo</option>
+                        <option value="Iaido">Iaido</option>
+                        <option value="Kyudo">Kyudo</option>
+                        <option value="Jodo">Jodo</option>
+                    </select>
+        </div>
+        <div>
+          <label>Message (textarea)</label>
+          <div>
+            <textarea placeholder="Insira sua mensagem aqui:"></textarea>
+          </div>
+        </div>
+        <div>
+          <label>Adicionar arquivo: </label>
+          <div>
+            <input type="file" id>
+          </div>
+        </div>
+        <div>
+          <button id="submit-button" type="submit">Enviar</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+		<!-- beggining footer -->		
+		<footer class="footer-distributed">
+			<div class="footer-right">
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-linkedin"></i></a>
+				<a href="#"><i class="fa fa-github"></i></a>
+
+			</div>
+			<div class="footer-left">
+				<p class="footer-links">
+					<a class="link-1" href="index.html">Home</a>
+					<a href="sobre.html">Sobre</a>
+					<a href="produtos.html">Produtos</a>
+					<a href="estoque.html">Estoque</a>
+					<a href="diferencial.html">Diferencial</a>
+					<a href="contato.html">Contato</a>
+				</p>
+				<p>Kendo Web &copy; 2022</p>
+			</div>
+		</footer>
+	<script src="../scripts/contato.js"></script> 		
 	</body>
 </html>
