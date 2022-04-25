@@ -6,7 +6,8 @@ body {
 }
 
 .qfc-container {
-  --form-theme-color: #00bcd4;
+	/*#00bcd4*/
+  --form-theme-color: dodgerblue;
   --form-bg-color: white;
   --input-text-color: black;
   --button-hover: #4e5050;
