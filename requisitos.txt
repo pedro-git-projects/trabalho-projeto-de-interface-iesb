@@ -1,0 +1,6 @@
+Home -> Navbar, logo, fonte
+Sobre -> 3 <p> 2<img> 1<video> 1<audio>
+Produtos -> 10  <img> 10<descricoes> 
+Estoque -> <tb>3<tc> 10<tr>
+Diferencial -> 5 listas
+Contato -> formulario com botao de enviar
