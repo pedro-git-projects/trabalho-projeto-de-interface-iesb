@@ -1,6 +1,6 @@
 help: 
-	@echo 'Usage:'
+	@echo 'Uso:'
 	@sed -n 's/^##//p' ${MAKEFILE_LIST} | column -t -s ':' |  sed -e 's/^/ /'
-## starts website on xorg default browser 
+## 'make run' abre o site no navegador padrão do xorg 
 run:
 	xdg-open ./pages/index.html
