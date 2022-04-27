@@ -12,19 +12,17 @@
 	</head>
 
 	<body>
-		<header class="header">
-			<nav>
-				<a href="index.html" class="logo">Kendo Web</a>
-				<div id="nav-links" class="header-right">
-					<a href="sobre.html" class="nav-link">Sobre</a>
-					<a href="produtos.html" class="nav-link">Produtos</a>
-					<a href="estoque.html" class="nav-link">Estoque</a>
-					<a href="diferencial.html" class="nav-link active">Diferencial</a>
-					<a href="contato.html" class="nav-link">Contato</a>
-				</div>			
-			</nav>
-		</header>	
-
+		<div class="topnav" id="myTopnav">
+			<a href="index.html" class="logo">Kendo Web</a>
+			<a href="sobre.html" class="right">Sobre</a>
+			<a href="produtos.html" class="right">Produtos</a>
+			<a href="estoque.html" class="right">Estoque</a>
+			<a href="diferencial.html" class="right active">Diferencial</a>
+			<a href="contato.html" class="right">Contato</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
 		<h1>Conheça nossos diferenciais</h1>
 
 		<div class="lists-container">
@@ -73,7 +71,7 @@
 						</ol>
 					</div>
 				</li>  
-	<li class="sgLi">
+				<li class="sgLi">
 					<div class="box">
 						<h3>Diferenciais em Kanji</h3>
 						<ol class="s16">
@@ -84,7 +82,7 @@
 						</ol>
 					</div>
 				</li> 
-			</li> 
+				</li> 
 			</ul>
 		</div>
 
@@ -110,4 +108,5 @@
 			</div>
 		</footer>
 	</body>
+	<script src="../scripts/global.js"></script> 		
 </html>
